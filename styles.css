@@ -1,0 +1,43 @@
+body{
+	background-color:#ffffe6;
+	
+}
+#wrapper { 
+  position:relative; 
+  width:1000px; 
+  margin:0 auto; 
+  padding-top:80px;
+}
+  
+#WhiteBoard{
+  width:950px; 
+  height:600px; 
+  margin:0 auto; 
+  padding:20px 0 80px 20px; 
+  cursor:crosshair;
+}
+
+#drawingCanvas { 
+ position:absolute; 
+ border:none; 
+ color:#FFF; 
+ overflow:hidden; 
+ background-color:transparent; 
+ } 
+#tempCanvas { position: absolute; width:900px; height:545px; overflow:hidden; }
+
+.noscript { padding:50px 30px 0 40px; width:820px; } 
+#selector { 
+ position:absolute; 
+ z-index:99999; 
+ margin-top:-30px; 
+ } 
+select { 
+ font-family:Verdana, Geneva, sans-serif; 
+ font-size:12px; 
+ background-color:#EAEAEA; 
+ }
+#redChalk_button { cursor:pointer; position:absolute; z-index:99999; top:620px; left:240px; } 
+#greenChalk_button { cursor:pointer; position:absolute; z-index:99999; top:620px; left:320px; } 
+#blueChalk_button { cursor:pointer; position:absolute; z-index:99999; top:620px; left:400px; } 
+#blackChalk_button { cursor:pointer; position:absolute; z-index:99999; top:620px; left:160px; } 
